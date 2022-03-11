@@ -24,6 +24,7 @@
     "build-node": "./node_modules/.bin/babel src --out-dir lib",
     "watch-node": "./node_modules/.bin/babel -w src --out-dir lib",
     "prepublishOnly": "yarn build-node && yarn build-web",
+    "prepare": "npm run build",
     "start": "node server.js",
     "lint": "eslint src",
     "flow": "flow",
