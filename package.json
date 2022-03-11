@@ -65,7 +65,6 @@
     "fetch-mock": "^8.0.1",
     "flow-bin": "^0.113.0",
     "flow-coverage-report": "^0.6.1",
-    "husky": "^3.1.0",
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "multiparty": "^4.2.1",
